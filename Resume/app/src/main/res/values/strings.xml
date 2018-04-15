@@ -5,6 +5,54 @@
     <string name="tabWorkExperience">Experience</string>
     <string name="tabContact">Contact</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <integer name="txtSizeHeading">20</integer>
+    <integer name="txtSizeNormal">15</integer>
+
+
+    <string name="AboutMe">I am Computer Science graduate, worked for VentureDive one of the top five software house in Pakistan known for its Technology Solutions that develops and invests in mobility in location based products that change the world by delivering lifestyle improvements. My job responsibility includes, developing web applications using Spring Boot 1.5 and Java 1.8, design software architectures, perform code reviews etc.
+    </string>
+
+    <string-array name="achievements">
+        <item>Certification: IMAGE AND VIDEO PROCESSING, Duke University</item>
+        <item>Certification: CRYPTOGRAPHY, Standford University</item>
+        <item>Microsoft Specialist: Programming in HTML5 with CSS3 and JavaScript</item>
+        <item>Microsoft Specialist: Server Virtualization with Windows Server Hyper-V and System Center Specialist</item>
+        <item>Microsoft Certified Solution Associate: Office 365 (Software + Service)</item>
+        <item>Bronze Medalist: National University of Computer and Emerging Sciences (FAST-NU), MSCS 2015-2017</item>
+    </string-array>
+
+    <string-array name="portfolios">
+        <item>https://www.linkedin.com/in/avenashkumarse1993</item>
+        <item>https://github.com/AvenashKumar</item>
+    </string-array>
+
+    <string-array name="educationInfo">
+        <item>MSCS - Maharishi University of Management, Fairfield, IA, USA (2018 - 2020)</item>
+        <item>MSCS - National University of Computer and Emerging Sciences, Karachi, Pakistan (2015 - 2017)</item>
+        <item>BSCS - University of Karachi, Karachi, Pakistan (2011 - 2014)</item>
+    </string-array>
+
+
+    <string-array name="techSkills">
+        <item>Platforms: Desktop, Web, and Mobile</item>
+        <item>Operating Systems: Ubuntu 16.*, Kali Linux 2015, Respbian, Windows, Android</item>
+        <item>Programming Languages: C, C++, GCC G++/C++, C#, and Java</item>
+        <item>Scripting Languages: Python 3.6, MATLAB 2013b, BASH</item>
+        <item>Databases: SQL, Oracle, MySQL, and SQLite</item>
+        <item>Libraries: Win32, libcurl, OpenSSL 1.1.0, OpenCV 3.2, OpenGL, Box2D, OpenNLP, SharpNLP, NLTK, Semantics</item>
+        <item>Continuous Integration: Jenkins, JUnit, JMeter, SoapUI, Postman</item>
+        <item>Tools / Toolkits: LATEX, SQLMap, Metasploit, NMAP, Nikto, Social Engineering Toolkit</item>
+        <item>Integrated Development Environment (IDE): VS 2013, PyCharm 4.0, IntelliJ, Android Studio</item>
+        <item>Version Control System: Git, SVN</item>
+    </string-array>
+
+    <string-array name="softSkills">
+        <item>Innovative,  Hardworking, Punctuality and Ownership</item>
+        <item>Problem solving skills</item>
+        <item>Quick learner and keen to learn new skills</item>
+        <item>Ability to work under pressure</item>
+        <item>Analytical and Problem solving skills</item>
+        <item>Ambitious to achieve new goals and targets</item>
+    </string-array>
+
 </resources>

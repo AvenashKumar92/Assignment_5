@@ -5,11 +5,57 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/tabHome"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:layout_below="@id/textView"
+        android:text="Introduction:"
+        android:id="@+id/tvIntroduction"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/ivCompleteIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvIntroduction"
+        android:textSize="15dp"
+        android:text="@string/AboutMe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivCompleteIntro"
+        android:text="Achievements:"
+        android:id="@+id/tvAchievements"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvAchievements"
+        android:layout_below="@+id/tvAchievements"
+        android:entries="@array/achievements">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lvAchievements"
+        android:text="Portfolios:"
+        android:id="@+id/tvPortfolio"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <ListView
+        android:id="@+id/lvPortfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPortfolio"
+        android:entries="@array/portfolios">
+    </ListView>
 
 </RelativeLayout>
