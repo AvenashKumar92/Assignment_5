@@ -55,4 +55,40 @@
         <item>Ambitious to achieve new goals and targets</item>
     </string-array>
 
+    <string-array name="vdExperience">
+        <item>Job Role: Enrich and maintain LMS (Loan Management System) module of 'Tez' financial app</item>
+        <item>Programming Languages: Java/J2ee 1.8.</item>
+        <item>Scripting: BASH, JMeter</item>
+        <item>Databases: MySQL</item>
+        <item>Frameworks: Spring Boot, Hibernate, Keycloak.</item>
+        <item>Continuous Integration: Jenkins, JUnit, JMeter, SoapUI, Postman</item>
+        <item>Version Control System: Git</item>
+        <item>Integrated Development Environment (IDE): IntelliJ Idea 2016</item>
+        <item>Operating Systems: Windows 10, and RHEL6.5</item>
+        <item>Software Development Process: Agile (JIRA)</item>
+    </string-array>
+
+    <string-array name="matrixSystemsExperience">
+        <item>Job Role: Design software architectures, build cross platform utilities, client support and enrich product like MARS.</item>
+        <item>Programming Languages: C++ (9.0, 11.0), C++/CLR, GCC G++/C++, Java (1.7-1.8), and C#.</item>
+        <item>Scripting Languages: Python 2.7-3.7, and BASH</item>
+        <item>Databases: SQL (MS SQL Server 2008, 2014), Oracle (11g, 12c)</item>
+        <item>Libraries: Oracle Call Interface (OCI), SAP Crystal Reports .Net SDK, and googletest/googlemock.</item>
+        <item>Integrated Development Environment (IDE): VS 2008, 2010, 2013, IntelliJ Idea 2016, and 2017</item>
+        <item>Continuous Integration: Jenkins, SONAR, Unit Testing, Development Testing</item>
+        <item>Version Control System: SVN, Git</item>
+        <item>Software Designing: MS Visio, Software Design Patterns</item>
+    </string-array>
+
+    <string-array name="itSecurityLabsExperience">
+        <item>Job Role: To make the best use of my technical expertise in data security and biometric image processing.</item>
+        <item>Programming Languages: C++, GCC G++/C++, and Java (1.8).</item>
+        <item>Scripting Languages: Python 3.6, MATLAB 2013b, BASH</item>
+        <item>Databases: MySQL</item>
+        <item>Libraries: Win32, libcurl, OpenSSL 1.1.0, OpenCV 3.2, OpenGL, Box2D, OpenNLP, SharpNLP, NLTK, Semantics </item>
+        <item>Tools / Toolkits: LATEX, SQLMap, Metasploit, NMAP, Nikto, Social Engineering Toolkit.</item>
+        <item>Integrated Development Environment (IDE): VS 2013 and PyCharm 4.0</item>
+        <item>Version Control System: Git</item>
+    </string-array>
+
 </resources>

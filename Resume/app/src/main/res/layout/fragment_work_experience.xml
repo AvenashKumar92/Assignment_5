@@ -5,11 +5,53 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvVentureDive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/tabWorkExperience"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:text="VentureDive, Java Backend - Software Engineer - Khi, Pakistan"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tvVentureDive"
+        android:id="@+id/lvVDExperience"
+        android:entries="@array/vdExperience">
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvMatrixSystems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvVDExperience"
+        android:text="Matrix Systems, C++ Software Engineer - Khi, Pakistan"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tvMatrixSystems"
+        android:id="@+id/lvMatrixSystemExperience"
+        android:entries="@array/matrixSystemsExperience">
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvITSecurityLabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvMatrixSystemExperience"
+        android:text="IT Security Labs, Research Assistant - Khi, Pakistan"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tvITSecurityLabs"
+        android:id="@+id/lvITSecurityLabsExperience"
+        android:entries="@array/itSecurityLabsExperience">
+    </ListView>
 
 </RelativeLayout>
